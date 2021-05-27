@@ -1,0 +1,52 @@
+#dino {
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #9CA0A6;
+    width: 640px;
+    margin: 0 auto;
+}
+
+#dino > span,
+#dino > div {
+    position: absolute;
+}
+
+.hidden {
+    display: none;
+}
+
+.press-to-play {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.score {
+    right: 20px;
+    top: 20px;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.highscore {
+    opacity: .75;
+}
+
+.game-over {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.game-over-text {
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-family: monospace;
+}
+
+.replay-button {
+    margin-top: 10px;
+    font-size: 18px;
+}

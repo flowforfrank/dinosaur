@@ -1,0 +1,6 @@
+# Build
+.cache
+build
+
+# Dependencies
+node_modules
